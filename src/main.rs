@@ -1,7 +1,9 @@
 mod brrt;
 
-use brrt::doit;
+use brrt::repository::load_config;
+use brrt::repository::config::dothings;
 
 fn main() {
-    doit();
+    load_config();
+    dothings();
 }

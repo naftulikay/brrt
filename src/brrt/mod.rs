@@ -1,4 +1,2 @@
-
-pub fn doit() {
-    println!("woah");
-}
+// e.g. public package
+pub mod repository;
