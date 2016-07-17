@@ -8,5 +8,4 @@ authors = [
 build = "build.rs"
 
 [dependencies]
-libc = "0.2.14"
 toml = "0.1.30"
